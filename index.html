@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <video id="background-video" autoplay loop muted poster="poster.jpg">
+            <source src="background.webm" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="heading">
+                Flight
+                <hr>
+            </div>
+
+            <div class="keybind">
+                <div class="keybind-text">Pitch</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">W S</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Yaw</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">A D</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Roll</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Q E</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Translate X</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">J L</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Translate Y</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">I K</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Translate Z</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">N H</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Docking Controls</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Delete</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Precision Controls</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Shift</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Trim Modifier</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Alt</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Throttle Delta</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Control Left Shift</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Max Throttle</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Z</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Cut Throttle</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">X</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Activate Next Stage</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Space</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle SAS</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">T</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle RCS</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">R</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Landing Gear</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">G</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Engage Brakes</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">B</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Lights</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">U</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Trigger Action Group 1-10</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">1-10</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Map View</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">M</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Focus Next Vessel</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">]</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Focus Previous Vessel</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">[</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Flight Camera Mode</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">V</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Camera Fine Movement</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Alt Right Alt</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Flight HUD</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">F2</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Mouse Look</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Tab</div>
+                </div>
+            </div>
+
+            <div class="heading">Global
+                <hr>
+            </div>
+
+            <div class="keybind">
+                <div class="keybind-text">Quicksave</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">F5</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Load Quicksave</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">F9</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Increase Time Warp</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">.</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Decrease Time Warp</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">,</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Stop Time Warp</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">/</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Pause Menu</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Escape</div>
+                </div>
+            </div>
+
+            <div class="heading">EVA
+                <hr>
+            </div>
+
+            <div class="keybind">
+                <div class="keybind-text">Walk Left/Right</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">A D</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Strafe Left/Right</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Q E</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Walk Forward/Backward</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">W S</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Translate Up/Down (Jetpack)</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Shift Left Control</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Yaw (Jetpack)</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Q E</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Pitch (Jetpack)</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">I K</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Roll (Jetpack)</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">J L</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Run</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Shift</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Jump</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Space</div>
+                </div>
+            </div>
+
+            <div class="heading">VAB
+                <hr>
+            </div>
+
+            <div class="keybind">
+                <div class="keybind-text">Delete Assembly</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Delete Backspace</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Cycle Symmetry Mode Forward</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">X</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Cycle Symmetry Mode Back</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Shift X</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Angle Snap</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">C</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Disable Stack Attachment</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Alt</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Reset Part Orientation</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Space</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Center Camera In VAB</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Home</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Copy Selected Assembly</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Control C</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Paste Copied Assembly</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Control V</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Search Parts</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Control F</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Undo</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Control Z</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Redo</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Control Y</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">fastScrollModifier</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Shift Right Shift</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">cameraFastModifier</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Left Shift Right Shift</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Pitch</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">S W</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Yaw</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">A D</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Rotate Roll</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Q E</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Toggle Frame Of Reference</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">F</div>
+                </div>
+            </div>
+            <div class="keybind">
+                <div class="keybind-text">Select All</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Control A</div>
+                </div>
+            </div>
+
+            <div class="heading">Mapview
+                <hr>
+            </div>
+
+            <div class="keybind">
+                <div class="keybind-text">Reset Camera</div>
+                <div class="keybind-box">
+                    <div class="keybind-key">Home</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: FiraSans;
+    src: url(FiraSans-Regular.ttf);
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #2E3540;
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    background-color: #1c222a9d;
+    margin: 20px;
+    outline: 50px solid #2E3540;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    backdrop-filter: blur(15px);
+}
+
+#background-video {
+    width: 140%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: -20%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.heading {
+    margin: 10px;
+    color: white;
+    font-family: FiraSans;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.heading hr {
+    border: 1px solid white;
+}
+
+.keybind {
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+.keybind-text {
+    color: white;
+    font-family: FiraSans;
+}
+
+.keybind-box {
+    background-image: url(button.png);
+    width: 185px;
+    height: 30px;
+    color: white;
+    font-family: FiraSans;
+    margin-left: auto;
+}
+
+.keybind-box:hover {
+    background-image: url(button-hover.png);
+    font-weight: bold;
+}
+
+.keybind-key {
+    border: 1px solid white;
+    border-radius: 2px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 4px;
+    height: 20px;
+    min-width: 40px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
